@@ -1,0 +1,252 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(245, 245, 220);
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+header {
+    top: 0;
+    padding: 0;
+    height: 90px;
+    width: 100%;
+    /*background-color: rgb(236, 184, 184);*/
+    background-color: rgb(255, 69, 0);
+    position: fixed;
+    z-index: 10;
+
+}
+
+.nav-bar {
+    background-color: rgb(255, 69, 0);
+    text-align: center;
+    margin-top: 13px;
+}
+
+.nav-bar-list {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 40px;
+    font-size: 26px;
+    font-weight: 550;
+    font-family: 'Times New Roman';
+    background-color: rgba(245, 245, 220, 0.24);
+    transition: all, 0.6s, ease-in-out, 0.3s;
+}
+
+.navigation-bar-title {
+    border: 1.5px black solid;
+    line-height: 63px;
+    padding: 0px 20px;
+    color: rgba(255, 255, 255, 0.9);
+    display: block;
+    border-radius: 3px;
+    transition: 0.6s, ease-in-out, 0.3s;
+}
+
+.linkedin {
+    background-color: rgba(247, 247, 218, 0.616);
+    color: black;
+    float: right;
+    width: 1.8%;
+    height: 32%;
+    margin-top: -4.4%;
+    margin-right: 2%;
+    padding: 0.45% 0.2% 0% 0.25%;
+    font-size: 22px;
+    border-radius: 46%;
+    line-height: 20px;
+    transition: 0.6s, ease-in-out, 0.3s; 
+}
+
+.navigation-bar-title:hover {
+    background-color: rgba(245, 245, 220, 0.6);
+    color: black;
+    border: 0.6px black solid;
+    border-radius: 13px;
+}
+
+.nav-bar-list:hover {
+    border-radius: 13px;
+    font-size: 30px;
+}
+
+.linkedin:hover {
+    background-color: rgba(255, 69, 0, 0.5);
+    color: rgb(245, 245, 220);
+}
+
+.content {
+    margin: 113px 30px;
+    line-height: 24px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: none;
+}
+
+h1 {
+    font-weight: bold;
+    text-align: left;
+    text-decoration: underline;
+    padding: 2% 7%;
+    font-size: 45px;
+    font-family: 'Times New Roman';
+}
+
+.about {
+    padding-top: 0.02%;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+
+.my-name {
+    text-decoration: none;
+    font-size: 24px ;
+}
+
+h3 {
+    font-weight: 550;
+    font-size: 22px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.about li {
+    text-align: left;
+    padding-left: 0%;
+}
+.left {
+    float:left;
+    margin-left: 5%;
+    margin-top: 1.25%;
+    width: 30%;
+}
+.right {
+    float: right;
+    padding-right: 12%;
+    padding-top: 2%;
+}
+
+.hobbies {
+    margin-left: 30%;
+}
+
+#hobbies {
+    text-decoration: underline;
+    
+    padding-top: 7%;
+}
+
+.hobbies li {
+    padding-left: 32%;
+}
+    
+
+.education {
+    padding-right: 6%;
+    margin-top: 2%;
+}
+
+#education {
+    text-decoration: underline;
+    padding-top: 2%;    
+}
+
+.education li {
+    text-align: left;
+    padding-left: 9%;
+}
+
+.spoken-languages {
+    padding-right: 2%;
+    padding-top: 5.7%;
+    position:relative;
+}
+
+#spoken-languages {
+    text-decoration: underline;
+}
+
+.spoken-languages li {
+    padding-left: 15%;
+}
+
+.skills {
+    float:left;
+    text-align: left;
+    padding-left: 63%;
+    padding-top: 8%;
+    font-size: 17px;
+}
+
+#skills {
+    text-decoration: underline;
+    margin-left: -13%;
+    font-size: 22px;
+}
+
+.technical-skills {
+    text-decoration: underline;
+    text-align: left;
+    margin-left: -13%;
+    padding-top: -2%;
+}
+
+.coding {
+    margin-left: -9%;
+    margin-top: 11%
+}
+
+.skills li {
+     margin: 0%;
+ }
+
+ .personal-skills {
+    text-decoration: underline;
+    text-align: left;
+    margin-left: -13%;
+    padding-top: -2%;
+}
+
+.projects {
+    margin-right: 30%;
+    padding-top: 13%;
+    
+}
+
+.projects h3, h4 {
+    text-decoration: underline;
+}
+
+.projects a {
+    color: black;
+}
+
+.webathon {
+    text-align: left;
+    padding-left: 23%
+}
+
+footer {
+    background-color: rgb(134, 134, 134);
+    padding: 15px 23px;
+    top: 50em;
+    bottom: 0;
+    color: #fff;
+    position: relative;
+}
